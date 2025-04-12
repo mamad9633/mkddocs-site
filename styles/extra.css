@@ -1,0 +1,6 @@
+/* Custom CSS for code blocks */
+.md-typeset code {
+    font-size: 14px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}

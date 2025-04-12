@@ -1,5 +1,8 @@
 site_name: Data Structures Documentation
 
+theme:
+  name: material
+
 nav:
   - Home: index.md
   - Data Structures:
@@ -20,9 +23,6 @@ nav:
       - Tree Test: examples/tree_test.ipynb
       - Tree Visualization: examples/tree_visualization.ipynb
 
-theme:
-  name: material
-
 plugins:
   - search
   - mkdocs-jupyter
@@ -33,3 +33,6 @@ markdown_extensions:
   - pymdownx.arithmatex
   - admonition
   - codehilite
+
+extra_css:
+  - styles/extra.css
